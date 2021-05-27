@@ -3,5 +3,6 @@ Exercise 1.3: Secret message
 docker run -d -it --name ex1.3 devopsdockeruh/simple-web-service:ubuntu
 
 docker exec -it ex1.3 bash
+root@30652161526b:/usr/src/app# tail -f ./text.log
 
 Secret message is: 'You can find the source code here: https://github.com/docker-hy'
